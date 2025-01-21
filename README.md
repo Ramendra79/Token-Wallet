@@ -31,6 +31,8 @@ o	export_candid!(): Generates the Candid interface for the canister, enabling in
 
 
 Features
+--------
+
 1.	Account Management
  
 o	Accounts are identified by a String representing the owner.
@@ -61,6 +63,8 @@ Output:
 
 
 Checking Balances
+----------------
+
 rust
 Copy code
 get_balance("Harsh".to_string()); // 1000
