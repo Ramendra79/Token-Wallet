@@ -9,18 +9,23 @@ Code Components
 ---------------
 
 1.	**Libraries Imported**
-2.	
+	
           o	candid::{CandidType, Deserialize}: For serialization and deserialization of data types.
           o	ic_cdk::export_candid: To export the Candid interface.
           o	ic_cdk_macros::*: Provides macros like #[init], #[update], and #[query] to define canister entry points.
           o	std::collections::HashMap: Used to maintain a mapping of account owners to their account details.
-3.	**Account Structure**
+  	
+2.	**Account Structure**
 
           o	struct Account: Contains one field:
                	balance (u64): The balance of the account.
-4.	Global State
+  	
+3.	**Global State**
+  
           o	A static, mutable HashMap named ACCOUNTS stores all accounts. It uses Option to handle initialization.
-5.	Functions
+  	
+4.	**Functions**
+	
           o	init: Initializes the ACCOUNTS global variable as an empty HashMap.
           o	create_account: Creates a new account with a given owner and initial balance.
           o	send_tokens: Facilitates the transfer of tokens from one account to another.
@@ -28,7 +33,9 @@ Code Components
                    	Updates the sender and receiver accounts.
           o	receive_tokens: Adds tokens to an account, creating it if it doesn't already exist.
           o	get_balance: Retrieves the balance of a specific account.
-6.	Candid Interface
+   	
+5.	**Candid Interface**
+	
           o	export_candid!(): Generates the Candid interface for the canister, enabling integration with frontend tools and other canisters.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
