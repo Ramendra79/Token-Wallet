@@ -4,15 +4,16 @@
 The code is an implementation of a basic token management system on the Internet Computer (IC) using Rust. It allows users to create accounts, send tokens, receive tokens, and check account balances.
 -----------------------------------------------------------------------------------------------
 
-Code Components
+**Code Components**
+
 1.	Libraries Imported
-o	candid::{CandidType, Deserialize}: For serialization and deserialization of data types.
-o	ic_cdk::export_candid: To export the Candid interface.
-o	ic_cdk_macros::*: Provides macros like #[init], #[update], and #[query] to define canister entry points.
-o	std::collections::HashMap: Used to maintain a mapping of account owners to their account details.
+          o	candid::{CandidType, Deserialize}: For serialization and deserialization of data types.
+          o	ic_cdk::export_candid: To export the Candid interface.
+          o	ic_cdk_macros::*: Provides macros like #[init], #[update], and #[query] to define canister entry points.
+          o	std::collections::HashMap: Used to maintain a mapping of account owners to their account details.
 2.	Account Structure
-o	struct Account: Contains one field:
-	balance (u64): The balance of the account.
+          o	struct Account: Contains one field:
+               	balance (u64): The balance of the account.
 3.	Global State
 o	A static, mutable HashMap named ACCOUNTS stores all accounts. It uses Option to handle initialization.
 4.	Functions
