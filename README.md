@@ -55,7 +55,7 @@ create_account("Aryan".to_string(), 500);
 Output:
 •	Two accounts, "Harsh" with 1000 tokens and "Aryan" with 500 tokens, are created.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Ramendra79/Token-Wallet/blob/main/createAccount.png)
 
 -----------------------------------------------------------------------------------------------
 
@@ -69,7 +69,7 @@ Output:
 •	"Harsh"'s balance: 1000
 •	"Aryan"'s balance: 500
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Ramendra79/Token-Wallet/blob/main/getBalance.png)
 
 -----------------------------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ Output:
 •	"Harsh": 800
 •	"Aryan": 700
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Ramendra79/Token-Wallet/blob/main/sendToken.png)
 
 -----------------------------------------------------------------------------------------------
 
@@ -96,7 +96,7 @@ receive_tokens("Ashu".to_string(), 300);
 Output:
 •	"Ashu received 300 tokens. New balance: 300"
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Ramendra79/Token-Wallet/blob/main/receiveToken.png)
 
 -----------------------------------------------------------------------------------------------
 
@@ -114,6 +114,8 @@ Copy code
 send_tokens("Ishu".to_string(), "Harsh".to_string(), 50);
 Output:
 "Sender account does not exist!"
+
+![alt text](https://github.com/Ramendra79/Token-Wallet/blob/main/outputLog.png)
 
 -----------------------------------------------------------------------------------------------
 
