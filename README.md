@@ -18,7 +18,7 @@ Code Components
 2.	**Account Structure**
 
           o	struct Account: Contains one field:
-               	balance (u64): The balance of the account.
+                   ->	balance (u64): The balance of the account.
   	
 3.	**Global State**
   
@@ -29,8 +29,8 @@ Code Components
           o	init: Initializes the ACCOUNTS global variable as an empty HashMap.
           o	create_account: Creates a new account with a given owner and initial balance.
           o	send_tokens: Facilitates the transfer of tokens from one account to another.
-                   	Checks if the sender has sufficient balance.
-                   	Updates the sender and receiver accounts.
+                   ->	Checks if the sender has sufficient balance.
+                   ->	Updates the sender and receiver accounts.
           o	receive_tokens: Adds tokens to an account, creating it if it doesn't already exist.
           o	get_balance: Retrieves the balance of a specific account.
    	
