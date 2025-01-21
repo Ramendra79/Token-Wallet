@@ -80,7 +80,7 @@ Output:
 •	"Harsh": 800
 •	"Aryan": 700
 
-![image alt] (https://github.com/Ramendra79/Token-Wallet/blob/main/getBalance.png)
+![image alt].(https://github.com/Ramendra79/Token-Wallet/blob/main/getBalance.png).
 
 -----------------------------------------------------------------------------------------------
 
