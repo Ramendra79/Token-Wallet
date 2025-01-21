@@ -1,0 +1,6 @@
+service : () -> {
+  create_account : (text, nat64) -> ();
+  get_balance : (text) -> (nat64) query;
+  receive_tokens : (text, nat64) -> (text);
+  send_tokens : (text, text, nat64) -> (text);
+}

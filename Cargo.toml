@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/rs-token-backend"
+]
+resolver = "2"
